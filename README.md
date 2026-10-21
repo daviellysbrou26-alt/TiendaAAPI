@@ -92,12 +92,13 @@ tiendaapi/
 ├── docs/
 │   ├── bitacora.md
 │   ├── openapi.yaml
-│   └── respuestas.md
-│   ├── prueba7.png
-│   ├── prueba8.png
+│   ├── prueba7.png.jpeg
+│   ├── prueba8.png.jpeg
+│   ├── pruebas..jpeg
 │   ├── pruebas.jpeg
+│   ├── respuestas.md
 │   └── swagger.png.jpeg
-├── src/git remote -v
+├── src/
 │   ├── middlewares/
 │   │   └── errores.js
 │   ├── models/
@@ -110,6 +111,7 @@ tiendaapi/
 ├── .gitignore
 ├── index.js
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
