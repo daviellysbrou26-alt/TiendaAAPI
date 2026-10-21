@@ -55,3 +55,9 @@
 - **Piloto:** Genesis y Daviellys
 - **Actividad:** Revisión de `README.md`, `docs/respuestas.md`, `docs/openapi.yaml` y las pruebas realizadas con Thunder Client.
 - **Problemas resueltos:** Se organizaron los documentos y se revisaron los resultados de las pruebas.
+### Evidencia de pruebas de pedidos y transacciones
+- **Fecha:** 21 de octubre de 2026 
+- **Piloto:** Daviellys.
+- **Actividad:** Ejecución de pruebas con Thunder Client para verificar las operaciones de pedidos, las validaciones de solicitudes y el control del stock.
+- **Problemas resueltos:** Se verificó que una solicitud con stock insuficiente devolviera el código HTTP 422 y que el stock permaneciera sin cambios después del rechazo.
+- **Evidencia:** Capturas de las pruebas guardadas en la carpeta `docs/`.
