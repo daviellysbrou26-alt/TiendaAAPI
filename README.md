@@ -93,7 +93,11 @@ tiendaapi/
 │   ├── bitacora.md
 │   ├── openapi.yaml
 │   └── respuestas.md
-├── src/
+│   ├── prueba7.png
+│   ├── prueba8.png
+│   ├── pruebas.jpeg
+│   └── swagger.png.jpeg
+├── src/git remote -v
 │   ├── middlewares/
 │   │   └── errores.js
 │   ├── models/
