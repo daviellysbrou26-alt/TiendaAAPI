@@ -22,11 +22,9 @@ Se obtiene con `req.params.id`. Separar la ruta del controlador (o del modelo) p
 ## Parte B — Conectar MySQL y crear el CRUD
 
 **5. ¿Dónde escribe el instructor los datos de conexión? Comparen con lo que harán ustedes en el Paso 4 (archivo .env). ¿Cuál es más seguro y por qué?**  
-El instructor suele poner host, usuario, contraseña y base directamente en el código (o en un archivo de configuración que se sube al repositorio). Nosotros usamos un archivo `.env` que **nunca** se sube a GitHub (está en `.gitignore`). Es más seguro porque las credenciales no quedan expuestas en el historial del repositorio.
-
+El instructor coloca los datos de conexión en el código o en un archivo de configuración. Nosotros los guardamos en el archivo .env, lo que nos permite mantenerlos separados del resto del proyecto. Es más seguro porque evitamos que las contraseñas y los datos de acceso se publiquen en GitHub.
 **6. Comparen sus tablas con las de tienda que crearon en el Paso 2. ¿Qué tienen en común? ¿Qué clave foránea aparece en ambas?**  
-Ambas tienen tablas de productos y de categorías (o equivalente). La clave foránea común es `categoria_id` en la tabla `productos`, que referencia a `categorias(id)`. En nuestro esquema también aparecen las tablas `pedidos` y `pedido_items` con sus propias claves foráneas.
-
+Ambas bases de datos tienen tablas para organizar los productos y sus categorías. La clave foránea que comparten es categoria_id, ubicada en la tabla productos, que permite relacionar cada producto con su categoría. En nuestro caso, también agregamos las tablas pedidos y pedido_items para gestionar las compras.
 **7. Hagan una tabla con cada operación del CRUD del video: verbo, ruta y código de estado que responde.**  
 
 | Operación | Verbo  | Ruta típica          | Código de éxito | Notas |
