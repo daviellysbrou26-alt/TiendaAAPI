@@ -5,4 +5,3 @@
 - prueba7.png     → respuesta de la prueba 7 (POST con stock insuficiente → 422)
 - prueba8.png     → respuesta de la prueba 8 (GET producto 1, stock no cambió)
 
-Estas imágenes son obligatorias según la rúbrica del profesor.
