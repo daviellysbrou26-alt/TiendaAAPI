@@ -1,4 +1,3 @@
-
 const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
@@ -8,7 +7,7 @@ const pool = mysql.createPool({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   connectionLimit: 10,
-  decimalNumbers: true
+  decimalNumbers: true      // devuelve precios DECIMAL como números, no como texto
 });
 
 module.exports = pool;
